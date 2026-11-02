@@ -11,7 +11,7 @@ jobs:
     runs-on: self-hosted
 
     env:
-      IMAGE_NAME: quay.io/${{ secrets.QUAY_USERNAME }}/ecommerce-api
+      IMAGE_NAME: quay.io/sahilshah/ecommerce-api
       CONTAINER_NAME: ecommerce-api
 
     steps:
